@@ -1,4 +1,4 @@
-import api from "../config/AxiosConfig";
+import api from "../config/axiosConfig";
 
 const quizService = {
     generateQuestion: async ()=>{
