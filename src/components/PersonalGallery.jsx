@@ -25,7 +25,7 @@ const PersonalGallery = () => {
 
     const artworks = personalGallery?.artworks || [];
 
-    if (personalGallery.artworks.length === 0) {
+    if (artworks.length === 0) {
         return (
             <div className="font-sans max-w-2xl mx-auto p-6 bg-white rounded-xl shadow-lg text-center my-8">
                 <h1 className="text-3l font-bold text-gray-800 mb-4">{personalGallery.name}</h1>
